@@ -1,0 +1,7 @@
+def findKthLargestNumber(arr, n=3):
+    k= n-1 # 
+    print(arr) # previous state 
+    arr.sort(reverse=True)   # {reverse=True} will make the sort to work in descending order
+    print(arr)  # after sort in descending order
+    print(arr[k]) # fetch the kth value
+findKthLargestNumber([5,9,27,3,28,18,45] ,3)
